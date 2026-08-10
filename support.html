@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BookNest — Support</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #faf8f5;
+    --fg: #2b2620;
+    --muted: #6b6257;
+    --accent: #8b5e34;
+    --rule: #e4ddd3;
+    --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1c1915;
+      --fg: #ece5da;
+      --muted: #a89c8c;
+      --accent: #d0a06c;
+      --rule: #38322a;
+      --card: #26221c;
+    }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Georgia, serif;
+    padding: 3rem 1.25rem 5rem;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  h1 { font-size: 2rem; line-height: 1.2; margin-bottom: .35rem; }
+  .meta { color: var(--muted); font-size: .95rem; margin-bottom: 2.25rem; }
+  h2 {
+    font-size: 1.25rem;
+    margin: 2.25rem 0 .6rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+  }
+  h3 { font-size: 1.05rem; margin: 1.25rem 0 .35rem; }
+  p, ul { margin-bottom: .9rem; }
+  ul { padding-left: 1.3rem; }
+  li { margin-bottom: .35rem; }
+  strong { font-weight: 650; }
+  a { color: var(--accent); }
+  .contact {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 12px;
+    padding: 1.1rem 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  .contact p { margin: 0; }
+  footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: .95rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>BookNest Support</h1>
+  <p class="meta">Free public-domain books and audiobooks for iPhone and Apple Watch</p>
+
+  <div class="contact">
+    <p><strong>Need help?</strong> Email <a href="mailto:alice.turcanu91@gmail.com">alice.turcanu91@gmail.com</a> — include your iOS version and what you were doing when the problem occurred, and we'll get back to you as soon as we can.</p>
+  </div>
+
+  <h2>About BookNest</h2>
+  <p>BookNest lets you discover, download, read, and listen to public-domain books — ebooks from <a href="https://standardebooks.org">Standard Ebooks</a> and <a href="https://www.gutenberg.org">Project Gutenberg</a>, and audiobooks from <a href="https://librivox.org">LibriVox</a>. It has no accounts, no ads, and no tracking; your library lives on your device and, optionally, in your own iCloud.</p>
+
+  <h2>Frequently asked questions</h2>
+
+  <h3>A book or audiobook won't load or download</h3>
+  <p>BookNest fetches everything directly from the catalogs' own servers, so occasional slowness or errors usually mean the source service is busy or briefly down. Check your internet connection, wait a little, and try again. Downloads continue in the background and resume after interruptions.</p>
+
+  <h3>Why can I only browse "New Releases" for Standard Ebooks?</h3>
+  <p>Standard Ebooks makes its newest releases and search public, but reserves full-catalog browsing for members of its <a href="https://standardebooks.org/donate#patrons-circle">Patrons Circle</a>. If you're a member, enter your patron email in BookNest's settings to unlock the full catalog. You can still search the whole catalog and browse Project Gutenberg without a membership.</p>
+
+  <h3>My library isn't syncing between devices</h3>
+  <p>Make sure both devices are signed in to the same Apple&nbsp;ID, iCloud Drive is enabled in iOS Settings, and the sync toggles are on in BookNest's settings on both devices. Sync goes through your private iCloud, so it can take a moment to propagate after changes.</p>
+
+  <h3>The Apple Watch app doesn't show my books</h3>
+  <p>The watch app receives your library directly from your iPhone. Keep the iPhone app open nearby with Bluetooth on for the initial transfer. The watch app can then download audio and play independently.</p>
+
+  <h3>Can I read my own EPUB files?</h3>
+  <p>Yes — use the import option in the Library tab to bring in EPUBs you own. They're copied into BookNest's storage and read entirely on-device.</p>
+
+  <h3>An audiobook chapter sounds wrong or is mislabeled</h3>
+  <p>LibriVox recordings are made by volunteers, and occasionally a recording has quality issues or metadata mistakes at the source. We can't edit the recordings themselves, but let us know and we'll check whether it's an app issue or a catalog issue.</p>
+
+  <h3>Is BookNest really free?</h3>
+  <p>Yes. There are no purchases, subscriptions, or ads in the app. The books and recordings are public-domain works provided by the catalogs above — if you find them valuable, consider supporting <a href="https://standardebooks.org/donate">Standard Ebooks</a>, <a href="https://www.gutenberg.org/donate/">Project Gutenberg</a>, or <a href="https://librivox.org/pages/donate-to-librivox/">LibriVox</a> directly.</p>
+
+  <h3>How do I delete my data?</h3>
+  <p>Everything lives on your device and in your own iCloud. Remove individual books from the Library, clear your profile in settings, or delete the app to remove all local data. To clear synced data, turn off the iCloud sync toggles first, or manage BookNest's data in iOS Settings → your Apple&nbsp;ID → iCloud.</p>
+
+  <h2>Reporting a problem</h2>
+  <p>Found a bug or have a feature request? Email <a href="mailto:alice.turcanu91@gmail.com">alice.turcanu91@gmail.com</a>. Screenshots and the book or audiobook title involved help a lot.</p>
+
+  <footer>
+    <p><a href="privacy-policy.html">Privacy Policy</a> · <a href="terms-of-service.html">Terms of Service</a></p>
+  </footer>
+</main>
+</body>
+</html>

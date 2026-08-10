@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BookNest — Privacy Policy</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #faf8f5;
+    --fg: #2b2620;
+    --muted: #6b6257;
+    --accent: #8b5e34;
+    --rule: #e4ddd3;
+    --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1c1915;
+      --fg: #ece5da;
+      --muted: #a89c8c;
+      --accent: #d0a06c;
+      --rule: #38322a;
+      --card: #26221c;
+    }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Georgia, serif;
+    padding: 3rem 1.25rem 5rem;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  h1 { font-size: 2rem; line-height: 1.2; margin-bottom: .35rem; }
+  .meta { color: var(--muted); font-size: .95rem; margin-bottom: 2.25rem; }
+  h2 {
+    font-size: 1.25rem;
+    margin: 2.25rem 0 .6rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+  }
+  p, ul { margin-bottom: .9rem; }
+  ul { padding-left: 1.3rem; }
+  li { margin-bottom: .35rem; }
+  strong { font-weight: 650; }
+  a { color: var(--accent); }
+  .summary {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 12px;
+    padding: 1.1rem 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  .summary p { margin: 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="meta">BookNest · Effective 8 August 2026</p>
+
+  <div class="summary">
+    <p><strong>The short version:</strong> BookNest has no accounts, no analytics, no ads, and no tracking. We do not operate any servers. Your library and settings live on your device and, if you choose, in your own private iCloud. We never see your data, and we have nothing to sell or share.</p>
+  </div>
+
+  <h2>Who we are</h2>
+  <p>BookNest is an independent iOS, watchOS, and widget app for reading and listening to public-domain books, developed by Alice Turcanu ("we", "us"). This policy describes what the app does with information when you use it.</p>
+
+  <h2>What we collect</h2>
+  <p><strong>Nothing.</strong> BookNest has no sign-up, no account system, and no analytics or crash-reporting SDKs. We run no servers of our own, so no information about you or your reading is ever transmitted to us.</p>
+
+  <h2>Data stored on your device</h2>
+  <p>To function as a book app, BookNest keeps the following data locally on your device:</p>
+  <ul>
+    <li>Your library: books and audiobooks you add, downloaded files, and collections.</li>
+    <li>Reading and listening progress, and reader display preferences (font, theme, layout).</li>
+    <li>An optional local profile: a display name, favorite genres, preferred formats and language, and an annual reading goal. This is used only to personalize the Discover tab on your device.</li>
+    <li>If you enter one, your Standard Ebooks Patrons Circle email (see below).</li>
+  </ul>
+  <p>This data never leaves your device except through the iCloud sync and Apple Watch transfer described below. Deleting the app deletes the on-device copy of all of it.</p>
+
+  <h2>iCloud sync (optional)</h2>
+  <p>BookNest can sync your preferences and your library across your devices using Apple iCloud. Both toggles ("Sync preferences with iCloud" and "Sync library with iCloud") are under your control in the app's settings.</p>
+  <p>When enabled, this data is stored in the <strong>private iCloud database and key-value store belonging to your own Apple&nbsp;ID</strong>. It is transmitted and stored by Apple under Apple's iCloud terms and security practices. We have no server-side access of any kind: we cannot read, receive, or export anything you sync. Turning sync off and clearing your data in the app removes it from iCloud; you can also manage app iCloud data in iOS Settings.</p>
+
+  <h2>Apple Watch and widgets</h2>
+  <p>If you use the BookNest watch app, your library and progress transfer directly between your iPhone and your watch over Apple's local device-to-device connection — not through any server of ours. Widgets and Live Activities read shared data stored on your device only.</p>
+
+  <h2>Network requests to content catalogs</h2>
+  <p>BookNest fetches book catalogs, covers, ebooks, and audiobook recordings directly from the third-party services that publish them:</p>
+  <ul>
+    <li><a href="https://standardebooks.org">Standard Ebooks</a> (ebook catalog and downloads)</li>
+    <li><a href="https://gutendex.com">Gutendex</a> and <a href="https://www.gutenberg.org">Project Gutenberg</a> (ebook catalog and downloads)</li>
+    <li><a href="https://librivox.org">LibriVox</a>, whose audio recordings are hosted on <a href="https://archive.org">archive.org</a> (audiobook catalog, cover art, and audio)</li>
+  </ul>
+  <p>As with any internet request, these services receive your IP address and standard connection metadata when the app contacts them, and each operates under its own privacy policy. BookNest attaches no identifiers, no advertising IDs, and no personal information to these requests, with one exception you control:</p>
+  <p><strong>Standard Ebooks patron email.</strong> If you are a Standard Ebooks Patrons Circle member, you may optionally enter your patron email in settings to unlock their full catalog. That email is stored only on your device and is sent only to standardebooks.org, as the login for their feeds. It is not synced to iCloud and not sent anywhere else. Remove it in settings at any time.</p>
+
+  <h2>Catalogs you add yourself</h2>
+  <p>BookNest can also connect to OPDS catalogs you add by hand — a public catalog, or your own calibre-web, COPS, or Kavita server on your home network. When you do, the app talks to that server directly, exactly as it does with the catalogs above: the server sees your IP address and standard connection metadata, and its operator's privacy practices apply, not ours.</p>
+  <p>If you enter an account email for such a catalog, it is stored on your device alongside the catalog entry and sent only to that server, as the login for its feeds. BookNest does not support catalog passwords, and sends nothing about you to any catalog beyond the request itself. Removing the catalog removes the stored email with it.</p>
+
+  <h2>What we don't do</h2>
+  <ul>
+    <li>No selling, renting, or sharing of data — we hold none to share.</li>
+    <li>No advertising, ad networks, or tracking across apps and websites.</li>
+    <li>No analytics, profiling, or telemetry.</li>
+    <li>No third-party SDKs that transmit data. The app's open-source components (listed in Settings → Acknowledgements) run entirely on-device.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>BookNest does not collect personal information from anyone, including children. The app requires no account and asks for no personal details to work.</p>
+
+  <h2>Your choices and rights</h2>
+  <p>Because everything lives on your device and in your own iCloud, you are always in direct control: edit or clear your profile in settings, remove the patron email, toggle iCloud sync off, or delete the app to remove local data. Since we hold no data about you, there is nothing for us to access, correct, or delete on your behalf — but you can always contact us with questions.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If the app's behavior ever changes in a way that affects this policy, we will update this page and revise the effective date above. Material changes will be called out in the App Store release notes for the version that introduces them.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about privacy in BookNest: <strong><a href="mailto:alice.turcanu91@gmail.com">alice.turcanu91@gmail.com</a></strong></p>
+</main>
+</body>
+</html>
